@@ -1,0 +1,155 @@
+<!-- Emmanuel_21522/2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <h1 class="logo">Emmanuel</h1>
+
+  
+    <span class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </span>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+      <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+      <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+      <li><a href="#skills"><i class="fas fa-lightbulb"></i> Skills</a></li>
+      <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<section id="about" class="section">
+  <img src="emm.jpg" alt="Profile Photo" class="profile-img">
+  <div class="content">
+    <h2>About Me</h2>
+    <p>
+      I’m Emmanuel Tokpah, a passionate Front-End Developer and Graphic Designer with a strong eye for creativity and design precision.
+      Currently pursuing a BSc in Information Systems and Management, I’m constantly exploring modern web technologies and design tools.
+    </p>
+  </div>
+</section>
+
+<section id="education" class="section">
+  <h2>Education</h2>
+  <ol class="edu-list">
+    <li><strong>BSc in Information Systems and Management</strong><br>
+      University of Lay Adventist of Kigali — Kigali, Rwanda (2023 – Expected 2026)</li>
+    <li><strong>Certificate in Basic Cybersecurity</strong><br>
+      Cisco Networking Academy — Online (2024)</li>
+    <li><strong>National Diploma in Electricity</strong><br>
+      Booker Washington Institute — Liberia (2021–2023)</li>
+    <li><strong>High School Diploma & WASSCE</strong><br>
+      Levi H. Martin Baptist High School — Liberia (2006–2020)</li>
+  </ol>
+</section>
+
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <div class="exp">
+    <p><strong>Intern – Web Design Studio (2024)</strong><br>
+    Worked on responsive layouts, modern UI styling, and debugging.</p>
+
+    <p><strong>Maintenance Worker – Booker Washington Institute</strong><br>
+    Performed electrical maintenance and troubleshooting tasks.</p>
+
+    <p><strong>Freelance Electrical Contractor – Liberia</strong><br>
+    Delivered residential and institutional electrical services.</p>
+
+    <p><strong>Data Support – LISGIS (Nov 19–30)</strong><br>
+    Assisted in national data collection for government surveys.</p>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <ul class="projects">
+    <li>
+      <h3>Personal Portfolio Website</h3>
+      <p>Developed a fully responsive dark-themed portfolio using HTML, CSS, and JavaScript.</p>
+       <img src="port.png" class="project-img" alt="Dark theme portfolio preview">
+    </li>
+    <li>
+      <h3>E-Commerce Website</h3>
+      <p>Built with HTML, CSS, JS, PHP & MySQL. Includes admin and user dashboards.</p>
+      <img src="e_commerce_webpage.png" class="project-img" alt="E-commerce preview">
+    </li>
+    <li>
+      <h3>Poster & Graphic Designs</h3>
+      <div class="image-gallery">
+        <img src="debate.jpg" alt="Debate Poster">
+        <img src="vote.jpg" alt="Vote Poster">
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>HTML, CSS, JavaScript</li>
+    <li>Responsive Design</li>
+    <li>Adobe Photoshop & Canva</li>
+    <li>GitHub & VS Code</li>
+    <li>Cybersecurity Awareness</li>
+    <li>Communication & Teamwork</li>
+  </ul>
+</section>
+
+<section id="certificates" class="section">
+  <h2>Certificates & Awards</h2>
+  <img src="cis.jpg" alt="Certificate" class="cert-img">
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <div class="contact-info">
+    <p><i class="fa-solid fa-phone"></i> +250 792 406 443</p>
+    <p><i class="fa-solid fa-envelope"></i> emmanueltokpah94@gmail.com</p>
+    <p><i class="fa-solid fa-location-dot"></i> Kigali, Rwanda</p>
+  </div>
+  <form class="contact-form" id="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Custom Success Popup -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h3>✅ Message Sent Successfully!</h3>
+    <p>Thank you for reaching out. I’ll get back to you soon.</p>
+    <button id="closePopup">OK</button>
+  </div>
+</div>
+
+<button id="backToTop" title="Back to top">↑</button>
+
+<footer>
+  <p>&copy; 2025 Emmanuel. All rights reserved.</p>
+  <div class="social-links">
+    <a href="mailto:emmanueltokpah94@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
